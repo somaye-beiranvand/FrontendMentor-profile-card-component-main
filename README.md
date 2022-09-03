@@ -21,8 +21,9 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-[solution URL](https://www.frontendmentor.io/solutions/responsive-profilecardcomponentmain-with-flex-and-grid--T9xi1j8MU)
+
+- [live site URL](https://somaye-beiranvand.github.io/Frontend-mentor-profile-card-component-main/)
 
 ## My process
 
@@ -38,16 +39,19 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### What I learned
 
 ` Hi everybody, welcome to my new solution :blush:
+
 At first look this project seemed to be easy but positioning the background bubbles responsively turned out to become a real chalenge.
 
 Thanks to [APG solution on Frontend Mentor](https://www.frontendmentor.io/solutions/card-component-with-3d-animation-t0NqrfqMT#comment-630cd1723fba76c6d9add1d8) that helped me with background bubbles, it was a briliant idea to combine vw & vh to position the background vertically.:boom:
-In this project i read some more in depth about background and learned alot, espacialy about background position.
 
-I thought it would be a good idea to chang the size of bubbles when the size of viewport changed.
-So I used a variable amount(vmax) and add some fixed amount (px) to it, because i didnt want background to become so small or disapear when the vp is so small.
+In this project I read some more in depth about background and learned alot, specially about background position.
+
+I thought it would be a good idea to change the size of bubbles when the size of viewport changed. So I used a variable amount(vmax) and add some fixed amount (px) to it, because I didn't want background to become so small or disapear when the vp is so small.
+
 I used grid for implementing the card part which was enjoyable and so helpful.
-in the code below you can see the part of code I used for background part.
-If you have any idea to improve my code or design it would be precious to me ,so plz let me know`
+In the code below you can see the part I used for background positioning.
+
+If you have any idea to improve my code or design it would be precious to me ,so please let me know`
 
 ```css
 body {
