@@ -21,7 +21,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
--[solution URL](https://www.frontendmentor.io/solutions/responsive-profilecardcomponentmain-with-flex-and-grid--T9xi1j8MU)
+- [solution URL](https://www.frontendmentor.io/solutions/responsive-profilecardcomponentmain-with-flex-and-grid--T9xi1j8MU)
 
 - [live site URL](https://somaye-beiranvand.github.io/Frontend-mentor-profile-card-component-main/)
 
