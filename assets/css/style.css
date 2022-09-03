@@ -1,0 +1,30 @@
+.sm-card-wrapper {
+  width: 325px;
+  height: 375px;
+  grid-template-columns: auto 108px auto;
+  grid-template-rows: 23% 54px 54px 27% 20%;
+  background-color: #fff;
+}
+.sm-card-wrapper h1,
+p {
+  margin: 0 !important;
+}
+.sm-card-wrapper > div {
+  text-align: center;
+}
+.sm-card-top {
+  grid-area: 1/1 / span 2 / span 3;
+  background-image: url(../images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sm-card-avatar {
+  grid-area: 2/2 / span 2 / span 1;
+  z-index: 1000;
+}
+.sm-card-personal-info {
+  grid-area: 3/1 / span 2 / span 3;
+}
+.sm-card-social-info {
+  grid-area: 5/1 / span 1 / span 3;
+}

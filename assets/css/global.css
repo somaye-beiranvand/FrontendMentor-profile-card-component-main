@@ -1,0 +1,70 @@
+/* kumbh-sans-regular - latin */
+@font-face {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/kumbh-sans-v12-latin-regular/kumbh-sans-v12-latin-regular.eot");
+  src: local(""),
+    url("../fonts/kumbh-sans-v12-latin-regular/kumbh-sans-v12-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/kumbh-sans-v12-latin-regular/kumbh-sans-v12-latin-regular.woff2")
+      format("woff2"),
+    url("../fonts/kumbh-sans-v12-latin-regular/kumbh-sans-v12-latin-regular.woff")
+      format("woff"),
+    url("../fonts/kumbh-sans-v12-latin-regular/kumbh-sans-v12-latin-regular.ttf")
+      format("truetype"),
+    url("../fonts/kumbh-sans-v12-latin-regular/kumbh-sans-v12-latin-regular.svg#KumbhSans")
+      format("svg");
+}
+
+/* kumbh-sans-700 - latin */
+@font-face {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/kumbh-sans-v12-latin-700/kumbh-sans-v12-latin-700.eot");
+  src: local(""),
+    url("../fonts/kumbh-sans-v12-latin-700/kumbh-sans-v12-latin-700.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/kumbh-sans-v12-latin-700/kumbh-sans-v12-latin-700.woff2")
+      format("woff2"),
+    url("../fonts/kumbh-sans-v12-latin-700/kumbh-sans-v12-latin-700.woff")
+      format("woff"),
+    url("../fonts/kumbh-sans-v12-latin-700/kumbh-sans-v12-latin-700.ttf")
+      format("truetype"),
+    url("../fonts/kumbh-sans-v12-latin-700/kumbh-sans-v12-latin-700.svg#KumbhSans")
+      format("svg");
+}
+:root {
+  --sm-bg-color: hsl(185, 75%, 39%);
+  --sm-primary-color: hsl(229, 23%, 23%);
+  --sm-secondary-color: hsl(227, 10%, 46%);
+  --sm-divider-color: hsl(0, 0%, 59%);
+}
+body {
+  font-size: 18px !important;
+  font-family: "Kumbh Sans";
+  width: 100%;
+  min-height: 100vh;
+  background: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg), var(--sm-bg-color);
+  background-repeat: no-repeat;
+  background-size: calc(70vmax + 100px);
+  background-position: right calc(47vw + 15%) bottom calc(65vh - 15vw),
+    left calc(40vw + 25%) top calc(72vh - 10vw);
+}
+.sm-fs-1 {
+  font-size: 18px;
+}
+.sm-fs-2 {
+  font-size: 16px;
+}
+.sm-fs-3 {
+  font-size: 12px;
+}
+.sm-text-primary {
+  color: var(--sm-primary-color);
+}
+.sm-text-secondary {
+  color: var(--sm-secondary-color);
+}
