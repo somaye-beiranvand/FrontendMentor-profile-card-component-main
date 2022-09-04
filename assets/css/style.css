@@ -2,7 +2,7 @@
   width: 325px;
   height: 375px;
   grid-template-columns: auto 108px auto;
-  grid-template-rows: 23% 54px 54px 27% 20%;
+  grid-template-rows: 23% 54px 54px 27% 21%;
   background-color: #fff;
   transition: all 0.5s;
 }
