@@ -42,11 +42,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 At first look this project seemed to be easy but positioning the background bubbles responsively turned out to become a real chalenge.
 
-Thanks to [APG solution on Frontend Mentor](https://www.frontendmentor.io/solutions/card-component-with-3d-animation-t0NqrfqMT#comment-630cd1723fba76c6d9add1d8) that helped me with background bubbles, it was a briliant idea to combine vw & vh to position the background vertically.:boom:
-
 In this project I read some more in depth about background and learned alot, specially about background position.
-
-I thought it would be a good idea to change the size of bubbles when the size of viewport changed. So I used a variable amount(vmax) and add some fixed amount (px) to it, because I didn't want background to become so small or disapear when the vp is so small.
 
 I used grid for implementing the card part which was enjoyable and so helpful.
 In the code below you can see the part I used for background positioning.
@@ -58,9 +54,7 @@ body {
   background: url(../images/bg-pattern-top.svg),
     url(../images/bg-pattern-bottom.svg), var(--sm-bg-color);
   background-repeat: no-repeat;
-  background-size: calc(70vmax + 100px);
-  background-position: right calc(47vw + 15%) bottom calc(65vh - 15vw), left
-      calc(40vw + 25%) top calc(72vh - 10vw);
+  background-position: right 48vw bottom 40vh, left 45vw top 44vh;
 }
 ```
 
