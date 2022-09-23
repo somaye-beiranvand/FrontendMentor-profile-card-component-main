@@ -23,7 +23,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 - [solution URL](https://www.frontendmentor.io/solutions/responsive-profilecardcomponentmain-with-flex-and-grid--T9xi1j8MU)
 
--live site url: [profile-card-component-main](https://somaye-beiranvand.github.io/FrontendMentor-profile-card-component-main/)
+- live site url: [profile-card-component-main](https://somaye-beiranvand.github.io/FrontendMentor-profile-card-component-main/)
 
 ## My process
 
